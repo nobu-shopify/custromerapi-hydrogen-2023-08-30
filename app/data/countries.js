@@ -1,9 +1,13 @@
 export const countries = {
   default: {
-    label: 'United States (USD $)',
-    language: 'EN',
-    country: 'US',
-    currency: 'USD',
+//    label: 'United States (USD $)',
+//    language: 'EN',
+//    country: 'US',
+//    currency: 'USD',
+    label: '日本 (JPY)',
+    language: 'JA',
+    country: 'JP',
+    currency: 'JPY',
   },
   '/en-ad': {
     label: 'Andorra (EUR €)',
@@ -208,6 +212,12 @@ export const countries = {
     language: 'EN',
     country: 'TH',
     currency: 'THB',
+  },
+  '/en-us': {
+    label: 'United States (USD $)',
+    language: 'EN',
+    country: 'US',
+    currency: 'USD',
   },
   '/en-va': {
     label: 'Vatican City (EUR €)',
