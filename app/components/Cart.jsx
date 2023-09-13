@@ -144,9 +144,7 @@ function CartCheckoutActions({checkoutUrl}) {
   if (!checkoutUrl) return null;
 
   // Stay authenticated at checkout - https://shopify.dev/docs/api/customer#step-stay-authenticated-on-checkout
-//  const checkoutUrlLoggedIn = `${checkoutUrl}?logged_in=true`;
-//  const checkoutUrlLoggedIn = `${checkoutUrl}`;
-  const checkoutUrlLoggedIn = `${checkoutUrl}?logged_in=false`;
+  const checkoutUrlLoggedIn = `${checkoutUrl}?logged_in=true`;
 
   return (
     <div className="flex flex-col mt-2">
